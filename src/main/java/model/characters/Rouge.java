@@ -1,9 +1,12 @@
 package model.characters;
 
 public class Rouge extends Character {
+    private static final int BASE_HP = 50;
+    private static final int BASE_ATTACK = 20;
+    private static final int BASE_DEFENCE = 5;
 
-    Rouge(int hp, int attack, int defence) {
-        super(hp, attack, defence);
+    public Rouge() {
+        super(BASE_HP, BASE_ATTACK, BASE_DEFENCE);
     }
 
     @Override
