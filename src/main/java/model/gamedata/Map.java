@@ -1,6 +1,8 @@
 package model.gamedata;
 
-public class Map {
+import java.util.ArrayList;
 
+public class Map {
+    ArrayList<Character> map = new ArrayList<>();
 
 }

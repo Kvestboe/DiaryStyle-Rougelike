@@ -6,7 +6,7 @@ public class Rouge extends Character {
     private static final int BASE_DEFENCE = 5;
 
     public Rouge() {
-        super(BASE_HP, BASE_ATTACK, BASE_DEFENCE);
+        super("Rouge", BASE_HP, BASE_ATTACK, BASE_DEFENCE);
     }
 
     @Override

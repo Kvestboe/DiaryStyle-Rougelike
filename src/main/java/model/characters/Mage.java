@@ -6,7 +6,7 @@ public class Mage extends Character {
     private static final int BASE_DEFENCE = 5;
 
     public Mage() {
-        super(BASE_HP, BASE_ATTACK, BASE_DEFENCE);
+        super("Mage", BASE_HP, BASE_ATTACK, BASE_DEFENCE);
     }
 
     @Override

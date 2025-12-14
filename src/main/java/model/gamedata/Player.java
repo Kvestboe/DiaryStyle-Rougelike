@@ -19,18 +19,5 @@ public class Player {
         return null;
     }
 
-    public Character pickCharacter(int choice) {
-        switch (choice) {
-            case 1 -> {
-                return new Warrior();
-            }
-            case 2 -> {
-                return new Mage();
-            }
-            case 3 -> {
-                return new Rouge();
-            }
-        }
-        return null;
-    };
+
 }

@@ -20,4 +20,5 @@ public abstract class AbstractItem implements ItemInterface {
     public String getDescription() {
         return description;
     }
+
 }

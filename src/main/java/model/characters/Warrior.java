@@ -6,7 +6,7 @@ public class Warrior extends Character {
     private static final int BASE_DEFENCE = 5;
 
     public Warrior() {
-        super(BASE_HP, BASE_ATTACK, BASE_DEFENCE);
+        super("Warrior", BASE_HP, BASE_ATTACK, BASE_DEFENCE);
     }
 
     @Override
